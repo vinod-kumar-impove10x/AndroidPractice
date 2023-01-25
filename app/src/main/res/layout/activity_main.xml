@@ -48,7 +48,7 @@
         android:id="@+id/toggle_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="20dp"
         android:text="Toggle Button"
         android:textAllCaps="false"
         android:textSize="20sp"
@@ -56,4 +56,17 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/custom_toast_btn"
         app:layout_constraintTop_toBottomOf="@+id/custom_toast_btn" />
+
+    <Button
+        android:id="@+id/check_box_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Check Box"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/toggle_btn"
+        app:layout_constraintTop_toBottomOf="@+id/toggle_btn" />
 </androidx.constraintlayout.widget.ConstraintLayout>

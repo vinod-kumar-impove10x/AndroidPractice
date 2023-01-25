@@ -35,5 +35,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, ToggleButtonActivity.class);
             startActivity(intent);
         });
+
+        Button checkBoxBtn = findViewById(R.id.check_box_btn);
+        checkBoxBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this, CheckBoxActivity.class);
+            startActivity(intent);
+        });
     }
 }
