@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toast_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/custom_toast_img"
+        android:layout_width="131dp"
+        android:layout_height="129dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/ic_baseline_emoji_emotions_24" />
+
+    <TextView
+        android:id="@+id/custom_toast_txt"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:gravity="center"
+        android:text="Hello World"
+        android:textAlignment="textStart"
+        android:textColor="#0E0E0E"
+        android:textSize="20sp" />
+</LinearLayout>
