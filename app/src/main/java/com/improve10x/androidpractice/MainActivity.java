@@ -41,5 +41,61 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, CheckBoxActivity.class);
             startActivity(intent);
         });
+
+        Button radioBtn = findViewById(R.id.radio_btn);
+        radioBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this, RadioButtonActivity.class);
+            startActivity(intent);
+        });
+
+        Button ratingBarBtn = findViewById(R.id.ratingbar_btn);
+        ratingBarBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this, RatingBarActivity.class);
+            startActivity(intent);
+        });
+
+        Button seekBarBtn = findViewById(R.id.seek_bar_btn);
+        seekBarBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this, SeekBarActivity.class);
+            startActivity(intent);
+        });
+
+        Button datePickerBtn = findViewById(R.id.datepicker_btn);
+        datePickerBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this, DatePickerActivity.class);
+            startActivity(intent);
+        });
+
+        Button timePickerBtn = findViewById(R.id.time_picker_btn);
+        timePickerBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this, TimePickerActivity.class);
+            startActivity(intent);
+        });
+
+        Button progressBarBtn = findViewById(R.id.progress_bar_btn);
+        progressBarBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this, ProgressBarActivity.class);
+            startActivity(intent);
+        });
+
+        Button verticalScrollViewBtn = findViewById(R.id.vertical_scroll_view_btn);
+        verticalScrollViewBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this,VerticalScrollViewActivity.class);
+            startActivity(intent);
+        });
+
+        Button horizontalScrollViewBtn = findViewById(R.id.horizontal_scroll_view_btn);
+        horizontalScrollViewBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this,HorizontalScrollViewActivity.class);
+            startActivity(intent);
+        });
+
+        Button listViewBtn = findViewById(R.id.list_view_btn);
+        listViewBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this,ListViewActivity.class);
+            startActivity(intent);
+        });
+
+
     }
 }

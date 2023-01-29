@@ -10,7 +10,7 @@
         android:id="@+id/sum_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="4dp"
         android:text="Sum"
         android:textAllCaps="false"
         android:textSize="20sp"
@@ -23,11 +23,12 @@
         android:id="@+id/android_toast_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="8dp"
         android:text="Android Toast"
         android:textAllCaps="false"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sum_btn" />
 
@@ -35,7 +36,7 @@
         android:id="@+id/custom_toast_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="8dp"
         android:text="Custom Toast"
         android:textAllCaps="false"
         android:textSize="20sp"
@@ -48,7 +49,7 @@
         android:id="@+id/toggle_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="4dp"
         android:text="Toggle Button"
         android:textAllCaps="false"
         android:textSize="20sp"
@@ -61,12 +62,119 @@
         android:id="@+id/check_box_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="4dp"
         android:text="Check Box"
         android:textAllCaps="false"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toggle_btn"
         app:layout_constraintTop_toBottomOf="@+id/toggle_btn" />
+
+    <Button
+        android:id="@+id/radio_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Radio Button"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_box_btn" />
+
+    <Button
+        android:id="@+id/ratingbar_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Rating Bar"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/radio_btn"
+        app:layout_constraintTop_toBottomOf="@+id/radio_btn" />
+
+    <Button
+        android:id="@+id/seek_bar_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Seek Bar"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingbar_btn" />
+
+    <Button
+        android:id="@+id/datepicker_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Date Picker"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar_btn" />
+
+    <Button
+        android:id="@+id/time_picker_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Time Picker"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/datepicker_btn"
+        app:layout_constraintStart_toStartOf="@+id/datepicker_btn"
+        app:layout_constraintTop_toBottomOf="@+id/datepicker_btn" />
+
+    <Button
+        android:id="@+id/progress_bar_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Progress Bar"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time_picker_btn" />
+
+    <Button
+        android:id="@+id/vertical_scroll_view_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Vertical Scroll View"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_bar_btn" />
+
+    <Button
+        android:id="@+id/horizontal_scroll_view_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Horizontal Scroll View"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vertical_scroll_view_btn" />
+
+    <Button
+        android:id="@+id/list_view_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="List View"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/horizontal_scroll_view_btn"
+        app:layout_constraintStart_toStartOf="@+id/horizontal_scroll_view_btn"
+        app:layout_constraintTop_toBottomOf="@+id/horizontal_scroll_view_btn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
