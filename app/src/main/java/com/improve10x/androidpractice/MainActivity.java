@@ -96,6 +96,16 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        Button alertDialogBtn = findViewById(R.id.alert_dialog_btn);
+        alertDialogBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this,AlertDialogActivity.class);
+            startActivity(intent);
+        });
 
+        Button progressDialogBtn = findViewById(R.id.progress_dialog_btn);
+        progressDialogBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this,ProgressDialogActivity.class);
+            startActivity(intent);
+        });
     }
 }
