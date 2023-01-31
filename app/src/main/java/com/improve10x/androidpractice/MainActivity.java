@@ -107,5 +107,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this,ProgressDialogActivity.class);
             startActivity(intent);
         });
+
+        Button webViewBtn = findViewById(R.id.web_view_btn);
+        webViewBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this,WebViewActivity.class);
+            startActivity(intent);
+        });
     }
 }
