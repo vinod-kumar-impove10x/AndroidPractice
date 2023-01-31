@@ -113,5 +113,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this,WebViewActivity.class);
             startActivity(intent);
         });
+
+        Button spinnerBtn = findViewById(R.id.spinner_btn);
+        spinnerBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this, SpinnerActivity.class);
+            startActivity(intent);
+        });
     }
 }
