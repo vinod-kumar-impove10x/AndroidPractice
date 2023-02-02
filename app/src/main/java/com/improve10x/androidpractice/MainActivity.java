@@ -119,5 +119,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, SpinnerActivity.class);
             startActivity(intent);
         });
+
+        Button customAlertDialogBtn = findViewById(R.id.custom_alert_dialog_btn);
+        customAlertDialogBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this,CustomAlertDialogActivity.class);
+            startActivity(intent);
+        });
     }
 }
